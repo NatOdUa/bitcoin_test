@@ -1,0 +1,48 @@
+.topSection {
+    min-height: 1151px;
+    padding-top: 147px;
+    position: relative;
+    margin: 0 auto;
+    border-color: #ebebeb;
+    &__text {
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom:8px;
+        &_bold{
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 66px;
+            margin-bottom:40.8px;
+        }
+        &_color{
+            color: #077eff;
+        }
+    }
+    &__bgDots{
+        text-align: center;
+        position: absolute;
+        top: 215px;
+        left: 0;
+        right: 0;
+        & svg{
+            width:95%;
+        }
+    }
+    &__buttons{
+        display: flex;
+        justify-content:center;
+    }
+    &__graph{
+        position: relative;
+        display: flex;
+        justify-content:center;
+    }
+    &__dots{
+        position: absolute;
+    }
+}

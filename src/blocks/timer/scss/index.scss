@@ -1,0 +1,42 @@
+.timer {
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+    & div{
+        height:60px;
+        width:52px;
+        position: relative;
+        display: inline-block;
+        height: 60px;
+        line-height:60px;
+        font-size: 44px;
+        font-weight: 800;
+        text-align: left;
+        color: #ffffff;
+        margin-right:28px;
+        &:before{
+            position: absolute;
+            right:61px;
+            content:":";
+            font-size: 42px;
+            font-weight: bold;
+            color: #d0e5ff;
+        }
+        &:first-child:before{
+            content:"";
+        }
+    }
+    & span{
+        justify-content:center;
+        display: flex;
+        white-space: pre;
+        text-align: center;
+        font-size:15px;
+        height:25px;
+        color: #738196;
+        margin-top:-25px;
+        &:before{
+            height:0;
+        }
+    }
+}

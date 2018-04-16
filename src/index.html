@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        @@include('_head.html', {
+            "title": "bitcoin_test"
+        })
+    </head>
+    <body>
+        <div class="page">
+            <!-- HEADER -->
+            <div class="page__header page__header_transparent">
+                @@include('./blocks/menu/index.html')
+            </div>
+            <!-- /HEADER -->
+            <!-- MAIN -->
+            <div class="page__content">
+                @@include('./blocks/topSection/index.html')
+                @@include('./blocks/topSection/index.html')
+                @@include('./blocks/topSection/index.html')
+            </div>
+            <!-- /MAIN -->
+            <!-- FOOTER -->
+            <div class="page__footer">
+            </div>
+            <!-- /FOOTER -->
+        </div>
+        @@include('_js.html')
+    </body>
+</html>

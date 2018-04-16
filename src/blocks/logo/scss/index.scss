@@ -1,0 +1,16 @@
+.logo {
+    flex:1;
+    text-align:center;
+    &__link {
+    }
+    &__img {
+        transition:0.3s;
+        width:60px;
+        height:41px;
+        .page__header_sticky &{
+            transition:0.3s;
+            width:48px;
+            height:33px;
+        }
+    }
+}

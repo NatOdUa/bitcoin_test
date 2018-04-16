@@ -1,0 +1,57 @@
+image: 
+stages:
+  - build
+
+variables:
+  COMMIT_EMAIL: "darknerty@gmail.com"
+  COMMIT_NAME: "Gitlab CI"
+  COMMIT_MESSAGE: "[skip ci] Auto build in Gitlab CI"
+  REPOSITORY_REMOTE_NAME: "origin"
+  REPOSITORY_REMOTE_URL: "https://gitlab.com/Nerty/maxfest.git"
+
+build:
+  stage: build
+  artifacts:
+    paths:
+    - build
+    expire_in: 10 min
+    when: on_success
+  before_script:
+    # Run ssh-agent (inside the build environment)
+    - eval $(ssh-agent -s)
+
+    # Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+
+    # Move node modules in current folder
+    - mv /home/node/node_modules ./node_modules
+
+    # Show the versions
+    - git --version
+    - node -v
+    - npm -v
+    - npm run gulp -- -v
+    - npm run bower -- -v
+
+    # Configure GIT user
+    - git config user.email "$COMMIT_EMAIL"
+    - git config user.name "$COMMIT_NAME"
+
+    # Configure SSH remote
+    - git remote set-url $REPOSITORY_REMOTE_NAME $REPOSITORY_REMOTE_URL
+
+    - git branch
+    - git checkout $CI_COMMIT_REF_NAME
+    - git branch
+  script:
+    - rm -rf vendor/*
+    - npm run bower install
+    - rm -rf build/*
+    - npm run gulp -- build --production
+    - git status
+    - git add build/*
+    - git status
+    - git commit -m "$COMMIT_MESSAGE" || true
+    - git push $REPOSITORY_REMOTE_NAME $CI_COMMIT_REF_NAME
+  #only:
+   #- master
