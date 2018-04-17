@@ -13,6 +13,24 @@
         text-align: center;
         color: #ffffff;
         margin-bottom:8px;
+        @media(max-width: 767px){
+            max-width:80%;
+        }
+        &_range{
+            font-size: 15px;
+            line-height: 1.6;
+            color: #738196;
+        }
+        &_number{
+            font-size: 30px;
+            font-weight: bold;
+            line-height: normal;
+            letter-spacing: 0.2px;
+            text-align: left;
+        }
+        &_numberSmall{
+            font-size:20px;
+        }
         &_bold{
             font-size: 48px;
             font-weight: 800;
@@ -35,7 +53,16 @@
     }
     &__buttons{
         display: flex;
+        flex-flow: row;
         justify-content:center;
+        @media(max-width:767px){
+            flex-flow: column;
+            & .button{
+                margin-bottom:30px;
+                width:70%;
+                margin-left:15%;
+            }
+        }
     }
     &__graph{
         position: relative;
@@ -44,5 +71,17 @@
     }
     &__dots{
         position: absolute;
+    }
+    &__form{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top:55px;
+    }
+    &__rangeSlider{
+        display: flex;
+        flex-flow:column;
+        position: relative;
+        top: -130px;
     }
 }

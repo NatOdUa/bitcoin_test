@@ -15,7 +15,8 @@
     "normalize-scss": "^3.0.3",
     "popper.js": "^1.12.9",
     "lightbox2": "^2.10.0",
-    "timezz": "TimezZ#^3.0.0"
+    "timezz": "TimezZ#^3.0.0",
+    "ion.rangeSlider": "ionrangeslider#^2.2.0"
   },
   "authors": [
     "Uznichenko Vladimir Olegovich <darknerty@gmail.com>"

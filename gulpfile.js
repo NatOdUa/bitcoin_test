@@ -43,6 +43,7 @@ var config = {
             'vendor/owl.carousel/dist/owl.carousel.js',
             'vendor/lightbox2/dist/js/lightbox.js',
             'vendor/timezz/dist/TimezZ-es6.js',
+            'vendor/ion.rangeSlider/js/ion.rangeSlider.js',
             // Libs
             'src/libs/jquery_mousewheel/jquery.mousewheel.js',
             // Other
@@ -66,6 +67,8 @@ var config = {
             'vendor/jquery-ui/themes/smoothness/jquery-ui.css',
             'vendor/font-awesome/css/font-awesome.css',
             'vendor/EasyAutocomplete/dist/easy-autocomplete.css',
+            'vendor/Ion.RangeSlider/css/Ion.RangeSlider.css',
+            'vendor/Ion.RangeSlider/css/Ion.RangeSlider.skinHTML5.css',
             'src/libs/easy_autocomplete/easyAutocomplete.css',
             'vendor/owl.carousel/dist/assets/owl.carousel.css',
             'src/scss/partials/common.scss',

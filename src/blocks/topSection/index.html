@@ -167,6 +167,9 @@
         <div class="topSection__timer">
             @@include('../timer/index.html')
         </div>
+        <div class="topSection__form">
+            @@include('../form/index.html')
+        </div>
 
         <div class="topSection__graph">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1360px" height="381px" viewBox="0 0 1360 381" version="1.1">
@@ -297,18 +300,18 @@
                     </g>
                 </g>
             </svg>
-            <div class="topSection__dots">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg width="1170px" height="246px" viewBox="0 0 1170 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: sketchtool 49 (51002) - http://www.bohemiancoding.com/sketch -->
-                    <title>1677502F-51DF-46D6-83D6-36D2372358AF</title>
-                    <desc>Created with sketchtool.</desc>
-
-                </svg>
-            </div>
-
         </div>
-
-
+        <div class="topSection__rangeSlider">
+            <div class="topSection__text topSection__text_range">
+                Realization plan
+            </div>
+            <div class="topSection__text topSection__text_number">
+                65,320
+                <span class="topSection__text_numberSmall">
+                    / 300,000,000
+                </span>
+            </div>
+            @@include('../rangeSlider/index.html')
+        </div>
     </div>
 </section>

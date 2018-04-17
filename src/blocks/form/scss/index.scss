@@ -1,0 +1,89 @@
+.form {
+    display: flex;
+    flex-flow: row;
+    @media(max-width: 767px) {
+        flex-flow: column;
+        width:70%;
+    }
+    &__container {
+        position: relative;
+    }
+    &__input {
+        padding: 12px 16px;
+        font-size: 15px;
+        line-height: 1.67;
+        text-align: left;
+        color: #738196;
+        outline: none !important;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #333b4c;
+        &:focus {
+            color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+        &_login {
+            margin-right: 20px;
+            @media(max-width: 767px) {
+                margin-right: 0;
+            }
+        }
+        &_password {
+            margin-right: 24px;
+            @media(max-width: 767px) {
+                margin-right: 0;
+            }
+        }
+        &:invalid:not(:placeholder-shown):not(:focus) {
+            transition: 0.3s easy-out;
+            border-bottom: 1px solid #ff165e !important;
+            & ~ .form__error {
+                transition: 0.3s easy-out;
+                opacity: 1;
+            }
+        }
+        @media(max-width: 767px) {
+            width:100%;
+        }
+    }
+    &__showPass {
+        background: url('../images/form__showpass.svg') no-repeat;
+        width: 20px;
+        height: 15px;
+        cursor: pointer;
+        padding: 10px;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        &_hide {
+            background: url('../images/form__showpass_hide.svg') no-repeat;
+        }
+    }
+    &__submit {
+        width: 166px;
+        height: 54px;
+        border-radius: 4px;
+        border: solid 1px transparent;
+        background-image: linear-gradient(#ff165e, #ff165e), linear-gradient(to bottom, #ff165e, #e81254);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #ffffff;
+        &:hover {
+            background-image: linear-gradient(#cc124d, #cc124d), linear-gradient(to bottom, #ff165e, #e81254);
+        }
+        @media(max-width:767px){
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    &__error {
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 2.08;
+        text-align: left;
+        color: #ff165e;
+        display: block;
+        opacity: 0;
+    }
+}
