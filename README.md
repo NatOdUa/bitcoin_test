@@ -10,3 +10,5 @@ bitcoin_test
 4)bower install
 
 5)gulp
+
+6)http://localhost:9000/
