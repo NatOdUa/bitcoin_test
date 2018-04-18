@@ -1,0 +1,115 @@
+.newsSection {
+    min-height: 415px;
+    background-color: #181e2d;
+    max-width: 1139px;
+    margin-left: auto;
+    margin-right: auto;
+    &__list {
+        @media(max-width: 1199px) {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+.owl-item.active {
+    display: flex;
+    justify-content: center;
+}
+.owl-dot {
+    transition:0.3s easy-out;
+    outline: none !important;
+    & span {
+        height: 12px;
+        width: 12px;
+    }
+    &.active {
+        & span {
+            background-color: #23dbb9 !important;
+        }
+        &:before{
+            transition:0.3s easy-out;
+            display: block;
+            content: '';
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            border-radius:50%;
+            margin-left:2px;
+            opacity: 0.2;
+            border: solid 1px #23dbb9;
+
+        }
+    }
+    &:hover {
+        & span {
+            background-color: #23dbb9 !important;
+        }
+    }
+}
+.owl-dots {
+    margin-top: 40px !important;
+    @media(max-width: 620px){
+        visibility: hidden;
+    }
+}
+.owl-prev {
+    background-color: transparent;
+    transition: 0.3s easy-out;
+    width: 44px;
+    height: 89px;
+    border-radius: 2px;
+    position: absolute;
+    top: 25%;
+    left: -72px;
+    cursor: pointer !important;
+    outline: none !important;
+    &:hover {
+        transition: 0.3s easy-out;
+        background-color: #1a2234 !important;
+        & span {
+            opacity: 1;
+            transition: 0.3s easy-out;
+            color: #23dbb9 !important;
+        }
+    }
+    & span {
+        opacity: 0.2;
+        color: #ffffff;
+        transition: 0.3s easy-out;
+        font-size: 45px;
+    }
+    @media(max-width: 620px){
+        left:-40px;
+    }
+}
+.owl-next {
+    position: absolute;
+    top: 25%;
+    right: -72px;
+    background-color: transparent;
+    transition: 0.3s easy-out;
+    width: 44px;
+    height: 89px;
+    border-radius: 2px;
+    cursor: pointer !important;
+    outline: none !important;
+    &:hover {
+        transition: 0.3s easy-out;
+        background-color: #1a2234 !important;
+        & span {
+            opacity: 1;
+            transition: 0.3s easy-out;
+            color: #23dbb9 !important;
+        }
+    }
+    & span {
+        opacity: 0.2;
+        color: #ffffff;
+        transition: 0.3s easy-out;
+        font-size: 45px;
+    }
+    @media(max-width: 620px){
+        right:-40px;
+    }
+}

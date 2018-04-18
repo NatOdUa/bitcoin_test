@@ -1,0 +1,39 @@
+.dropdown{
+    width:34px;
+    position: relative;
+    &__input{
+        display: none;
+    }
+    &__placeholder{
+        cursor: pointer;
+        font-size: 16px;
+        text-align: left;
+        color: #d0e5ff;
+    }
+    &__list{
+        position: absolute;
+        display: none;
+        padding-left:0;
+        left:-6.5px;
+        top:-3px;
+    }
+    &__item{
+        text-align: center;
+        padding-top: 3px;
+        width: 34px;
+        height: 30px;
+        list-style:none;
+        cursor: pointer;
+        font-size: 16px;
+        color: #d0e5ff;
+        &:hover{
+            border-radius: 2px;
+            background-color: #262f47;
+        }
+    }
+    &_open{
+        & .dropdown__list{
+            display: block;
+        }
+    }
+}

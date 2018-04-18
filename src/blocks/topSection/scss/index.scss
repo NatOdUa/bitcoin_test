@@ -4,6 +4,7 @@
     position: relative;
     margin: 0 auto;
     border-color: #ebebeb;
+    padding-bottom:120px;
     &__text {
         margin-left:auto;
         margin-right:auto;
@@ -68,6 +69,9 @@
         position: relative;
         display: flex;
         justify-content:center;
+        & svg{
+            max-width:1359px;
+        }
     }
     &__dots{
         position: absolute;
@@ -79,9 +83,12 @@
         margin-top:55px;
     }
     &__rangeSlider{
+        position: relative;
         display: flex;
         flex-flow:column;
-        position: relative;
-        top: -130px;
+        margin-top: -130px;
+    }
+    &__payment{
+        padding-top:40px;
     }
 }

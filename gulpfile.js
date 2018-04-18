@@ -71,6 +71,7 @@ var config = {
             'vendor/Ion.RangeSlider/css/Ion.RangeSlider.skinHTML5.css',
             'src/libs/easy_autocomplete/easyAutocomplete.css',
             'vendor/owl.carousel/dist/assets/owl.carousel.css',
+            'vendor/owl.carousel/dist/assets/owl.theme.default.css',
             'src/scss/partials/common.scss',
             'src/blocks/**/*.scss'
         ],
