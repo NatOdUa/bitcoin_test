@@ -14,8 +14,12 @@
         position: absolute;
         display: none;
         padding-left:0;
-        left:-6.5px;
+        left:-6.2px;
         top:-3px;
+        &_ru{
+            display:flex !important;
+            flex-flow:column-reverse;
+        }
     }
     &__item{
         text-align: center;
