@@ -76,23 +76,15 @@ var config = {
             'src/blocks/**/*.scss'
         ],
         img: [
-            'vendor/lightbox2/dist/images/*.+(png|jpg|gif|svg)',
-            'src/blocks/groupTopSection/images/*.+(png|jpg|gif|svg)',
-            'src/blocks/galleryItem/images/*.+(png|jpg|gif|svg)',
-            'src/blocks/searchForm/images/*.+(png|jpg|gif|svg)',
             'src/blocks/button/images/*.+(png|jpg|gif|svg)',
-            'src/blocks/emailSubscribe/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/festItem/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/footer/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/goTopArrow/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/groupItem/images/*.+(png|jpg|gif|svg)',
             'src/blocks/logo/images/*.+(png|jpg|gif|svg)', 
             'src/blocks/menu/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/slideSearchField/images/*.+(png|jpg|gif|svg)', 
-            'src/blocks/socialIconList/images/*.+(png|jpg|gif|svg)', 
             'src/blocks/topSection/images/*.+(png|jpg|gif|svg)',
-            'src/blocks/festivalsTopSection/images/*.+(png|jpg|gif|svg)'
-
+            'src/blocks/form/images/*.+(png|jpg|gif|svg)',
+            'src/blocks/newsItem/images/*.+(png|jpg|gif|svg)',
+            'src/blocks/payment/images/*.+(png|jpg|gif|svg)',
+            'src/blocks/preloader/images/*.+(png|jpg|gif|svg)',            
+            'src/blocks/dropdown/images/*.+(png|jpg|gif|svg)'
         ],
         fonts: [
             'src/fonts/*.ttf',
@@ -343,5 +335,4 @@ gulp.task('default', function () {
             gulp.start('build:fonts')
         }
     ).on('change', browserSync.reload);
-
 });

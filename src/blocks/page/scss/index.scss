@@ -18,6 +18,12 @@
                 z-index: 111;
                 background-color: transparent;
             }
+            @media(max-width:1000px){
+                position: fixed !important;
+                background-color: #181e2d;
+                transition: box-shadow 0.5s;
+                box-shadow: 0 20px 29px -14px rgba(0, 0, 0, 0.4);
+            }
         }
         &_sticky{
             position: fixed !important;

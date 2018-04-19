@@ -37,10 +37,9 @@
             }
         }
         &:invalid:not(:placeholder-shown):not(:focus) {
-            transition: 0.3s easy-out;
+            transition: 0.3s;
             border-bottom: 1px solid #ff165e !important;
             & ~ .form__error {
-                transition: 0.3s easy-out;
                 opacity: 1;
             }
         }

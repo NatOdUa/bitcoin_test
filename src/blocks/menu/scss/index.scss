@@ -8,6 +8,9 @@
     width: 100%;
     padding-top: 5px;
     transition: 0.3s;
+    @media(max-width:1000px){
+        height:77px;
+    }
     .page__header_sticky & {
         height: 77px;
         transition: 0.3s easy-out;
@@ -45,7 +48,7 @@
     &__person {
         position: absolute;
         left: -20px;
-        top:2px;
+        top:1px;
         width: 24px;
         height: 24px;
         & path#Shape{
@@ -69,8 +72,8 @@
                     width: 50%;
                 }
             }
-        }
-        .menu__item_login:hover &{
+        }   
+        .menu__item_login .menu__link:hover &{
             & path#Shape{
                 fill:#077eff;
                 transition: 0.3s;

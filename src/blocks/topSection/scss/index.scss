@@ -45,10 +45,10 @@
     &__bgDots {
         text-align: center;
         position: absolute;
-        top: 215px;
+        top: 170px;
         left: 0;
         right: 0;
-        & img {
+        & img,& svg {
             width: 95%;
         }
     }
@@ -69,7 +69,7 @@
         position: relative;
         display: flex;
         justify-content: center;
-        & img {
+        & img,& svg {
             max-width: 1358px;
             width:100%;
         }

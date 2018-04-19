@@ -47,11 +47,3 @@ $(document).ready(function () {
         }
     });
 });
-
-
-$(window).on('load', function () {
-    var $preloader = $('.preloader'),
-        $svg_anm = $preloader.find('img');
-    $svg_anm.fadeOut();
-    $preloader.delay(2700).fadeOut('slow');
-});

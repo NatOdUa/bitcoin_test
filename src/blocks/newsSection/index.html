@@ -1,7 +1,22 @@
 <section class="newsSection">
     <div class="owl-carousel owl-theme owl-loaded owl-drag newsSection__list">
-        @@for (var i = 0; i < 20; i++) {
-            @@include('../newsItem/index.html')
+        @@for (var i = 0; i < 5; i++) {
+            @@include('../newsItem/index.html',{
+            	"image":"newsItem__logo_btc.png",
+            	"text":"With so many different ways today to find information online, it can sometimes be hard to know where to go first"
+            })
+            @@include('../newsItem/index.html',{
+            	"image":"newsItem__logo_abc.png",
+            	"text":"Becouse of huge investments other companies have put into their search technologies, it's getting harder and harder"
+            })
+            @@include('../newsItem/index.html',{
+            	"image":"newsItem__logo_ef.png",
+            	"text":"The biggest and most commonly used method is to use a search engine"
+            })
+            @@include('../newsItem/index.html',{
+            	"image":"newsItem__logo_de.png",
+            	"text":"Web directories will usually either be relative or general"
+            })
         }
     </div>
 </section>

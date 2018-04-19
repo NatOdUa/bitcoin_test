@@ -110,7 +110,7 @@
         <g id="1360" transform="translate(0.000000, -612.000000)">
             <g id="Hero">
                 <g id="Background">
-                    <g id="Pointers" transform="translate(134.000000, 635.000000)">
+                    <g id="Pointers" transform="translate(134.000000, 635.000000)" >
                         <circle id="Dot1" stroke="url(#linearGradient-1)" stroke-width="1.5" fill="#1A82FF"
                                 cx="3.5" cy="82.5" r="3.5"></circle>
                         <circle id="Dot2" stroke="url(#linearGradient-1)" stroke-width="1.5" fill="#1A82FF"
@@ -160,7 +160,51 @@
             </g>
         </g>
     </g>
-    <style data-made-with="vivus-instant">.rgSsDJfi_0{stroke-dasharray:2409 2411;stroke-dashoffset:2410;animation:rgSsDJfi_draw_0 4600ms ease-in-out 0ms infinite,rgSsDJfi_fade 4600ms linear 0ms infinite;}.rgSsDJfi_1{stroke-dasharray:4403 4405;stroke-dashoffset:4404;animation:rgSsDJfi_draw_1 4600ms ease-in-out 0ms infinite,rgSsDJfi_fade 4600ms linear 0ms infinite;}@keyframes rgSsDJfi_draw{100%{stroke-dashoffset:0;}}@keyframes rgSsDJfi_fade{0%{stroke-opacity:1;}93.47826086956522%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes rgSsDJfi_draw_0{6.521739130434782%{stroke-dashoffset: 2410}71.73913043478261%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes rgSsDJfi_draw_1{6.521739130434782%{stroke-dashoffset: 4404}71.73913043478261%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style>
-
-
+    <style>
+        .rgSsDJfi_0{
+            stroke-dasharray:2409 2411;
+            stroke-dashoffset:2410;
+            animation:rgSsDJfi_draw_0 4600ms ease-in-out 0ms infinite,rgSsDJfi_fade 4600ms linear 0ms infinite;
+        }
+        .rgSsDJfi_1{
+            stroke-dasharray:4403 4405;
+            stroke-dashoffset:4404;
+            animation:rgSsDJfi_draw_1 4600ms ease-in-out 0ms infinite,rgSsDJfi_fade 4600ms linear 0ms infinite;
+        }
+        @keyframes rgSsDJfi_draw{
+            100%{
+                stroke-dashoffset:0;
+            }
+        }
+        @keyframes rgSsDJfi_fade{
+            0%{
+                stroke-opacity:1;
+            }            
+            100%{
+                stroke-opacity:0;
+            }
+        }
+        @keyframes rgSsDJfi_draw_0{
+            6.521739130434782%{
+                stroke-dashoffset: 2410;
+            }
+            71.73913043478261%{
+                stroke-dashoffset: 0;
+            }
+            100%{ 
+                stroke-dashoffset: 0;
+            }
+        }
+        @keyframes rgSsDJfi_draw_1{
+            6.521739130434782%{
+                stroke-dashoffset: 4404;
+            }
+            71.73913043478261%{ 
+                stroke-dashoffset: 0;
+            }
+            100%{ 
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
 </svg>
