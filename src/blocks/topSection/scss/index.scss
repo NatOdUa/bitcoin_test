@@ -4,91 +4,97 @@
     position: relative;
     margin: 0 auto;
     border-color: #ebebeb;
-    padding-bottom:120px;
+    padding-bottom: 120px;
     &__text {
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.2px;
         text-align: center;
         color: #ffffff;
-        margin-bottom:8px;
-        @media(max-width: 767px){
-            max-width:80%;
+        margin-bottom: 8px;
+        @media(max-width: 767px) {
+            max-width: 90%;
         }
-        &_range{
+        &_range {
             font-size: 15px;
             line-height: 1.6;
             color: #738196;
         }
-        &_number{
+        &_number {
             font-size: 30px;
             font-weight: bold;
             line-height: normal;
             letter-spacing: 0.2px;
             text-align: left;
         }
-        &_numberSmall{
-            font-size:20px;
+        &_numberSmall {
+            font-size: 20px;
         }
-        &_bold{
+        &_bold {
             font-size: 48px;
             font-weight: 800;
             line-height: 66px;
-            margin-bottom:40.8px;
+            margin-bottom: 40.8px;
         }
-        &_color{
+        &_color {
             color: #077eff;
         }
     }
-    &__bgDots{
+    &__bgDots {
         text-align: center;
         position: absolute;
         top: 215px;
         left: 0;
         right: 0;
-        & svg{
-            width:95%;
+        & img {
+            width: 95%;
         }
     }
-    &__buttons{
+    &__buttons {
         display: flex;
         flex-flow: row;
-        justify-content:center;
-        @media(max-width:767px){
+        justify-content: center;
+        @media(max-width: 767px) {
             flex-flow: column;
-            & .button{
-                margin-bottom:30px;
-                width:70%;
-                margin-left:15%;
+            & .button {
+                margin-bottom: 30px;
+                width: 70%;
+                margin-left: 15%;
             }
         }
     }
-    &__graph{
+    &__graph {
         position: relative;
         display: flex;
-        justify-content:center;
-        & svg{
-            max-width:1359px;
+        justify-content: center;
+        & img {
+            max-width: 1358px;
+            width:100%;
         }
     }
-    &__dots{
+    &__dots {
         position: absolute;
     }
-    &__form{
+    &__form {
         display: flex;
         justify-content: center;
         position: relative;
-        margin-top:55px;
+        margin-top: 55px;
     }
-    &__rangeSlider{
+    &__rangeSlider {
         position: relative;
         display: flex;
-        flex-flow:column;
+        flex-flow: column;
         margin-top: -130px;
     }
-    &__payment{
-        padding-top:40px;
+    &__payment {
+        padding-top: 40px;
+    }
+    &__timer {
+        @media(max-width: 575px) {
+            padding-left: 5%;
+        }
     }
 }

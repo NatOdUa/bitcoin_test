@@ -5,12 +5,17 @@
     }
     &__img {
         transition:0.3s;
+        transform: rotate(0deg);
         width:60px;
         height:41px;
         .page__header_sticky &{
             transition:0.3s;
             width:48px;
             height:33px;
+        }
+        &:hover{
+            transition:0.3s;
+            transform: rotate(-360deg);
         }
     }
 }

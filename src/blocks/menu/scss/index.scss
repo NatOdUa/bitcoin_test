@@ -1,16 +1,16 @@
 .menu {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     height: 105px;
     position: relative;
     margin: 0 auto;
     width: 100%;
-    padding-top:5px;
-    transition:0.3s;
-    .page__header_sticky &{
+    padding-top: 5px;
+    transition: 0.3s;
+    .page__header_sticky & {
         height: 77px;
-        transition:0.3s easy-out;
+        transition: 0.3s easy-out;
     }
     &__control {
         z-index: 2;
@@ -37,11 +37,50 @@
     }
     &__item {
         padding: 0 16px;
+        position: relative;
+        &_login {
+            padding-left: 40px;
+        }
+    }
+    &__person {
+        position: absolute;
+        left: -20px;
+        top:2px;
+        width: 24px;
+        height: 24px;
+        & path#Shape{
+            fill:#D0E5FF;
+            transition: 0.3s;
+        }
+        &:hover {
+            & path#Shape{
+                fill:#077eff;
+                transition: 0.3s;
+            }
+            & + .menu__link{
+                transition: 0.3s easy-out;
+                text-decoration: none;
+                color: #077eff !important;
+                &:before {
+                    width: 50%;
+                    left: 0;
+                }
+                &:after {
+                    width: 50%;
+                }
+            }
+        }
+        .menu__item_login:hover &{
+            & path#Shape{
+                fill:#077eff;
+                transition: 0.3s;
+            }
+        }
     }
     &__link {
         color: #d0e5ff;
         line-height: 22px;
-        transition:0.3s easy-out;
+        transition: 0.3s easy-out;
         cursor: pointer !important;
         font-size: 16px;
         position: relative;
@@ -68,7 +107,7 @@
             bottom: 8px;
         }
         &:hover {
-            transition:0.3s easy-out;
+            transition: 0.3s easy-out;
             text-decoration: none;
             color: #077eff;
             &:before {
@@ -81,11 +120,13 @@
         }
     }
 }
+
 @media (min-width: 1000px) {
     .menu__list {
         display: flex !important;
     }
 }
+
 @media (max-width: 1000px) {
     .menu__list {
         display: none;

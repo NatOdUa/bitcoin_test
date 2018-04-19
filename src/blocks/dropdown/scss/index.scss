@@ -4,7 +4,24 @@
     &__input{
         display: none;
     }
+    &__arrow{
+        cursor:pointer;
+        transition:0.3s;
+        transform: rotate(0deg);
+        background: url('../images/dropdown__arrow.svg') center center no-repeat;
+        text-align: center;
+        width:24px;
+        height:25px;
+        position: absolute;
+        top: 0px;
+        right: -15px;
+        &_active{
+            transition:0.3s;
+            transform: rotate(-180deg);
+        }
+    }
     &__placeholder{
+        text-transform:uppercase;
         cursor: pointer;
         font-size: 16px;
         text-align: left;
@@ -14,11 +31,13 @@
         position: absolute;
         display: none;
         padding-left:0;
-        left:-6.2px;
+        left:-6.4px;
         top:-3px;
+        letter-spacing:0.15px;
         &_ru{
             display:flex !important;
             flex-flow:column-reverse;
+            left:-6.2px;
         }
     }
     &__item{
