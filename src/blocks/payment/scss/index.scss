@@ -1,15 +1,15 @@
-.payment{
+.payment {
     display: flex;
     padding-top: 8px;
     justify-content: center;
-    &__container{
-        margin-right:14px;
-        &:last-child{
-            margin-right:0;
+    &__container {
+        margin-right: 14px;
+        &:last-child {
+            margin-right: 0;
         }
     }
-    &__icon{
-        width:40px;
-        height:40px;
+    &__icon {
+        width: 40px;
+        height: 40px;
     }
 }

@@ -1,3 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1310" height="424"
+     viewBox="0 0 1310 424">
     <defs>
         <linearGradient id="c" x1="50%" x2="50%" y1=".508%" y2="97.957%">
             <stop offset="0%" stop-color="#169EF5"/>
@@ -9,7 +11,8 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <circle id="e" cx="281.808" cy="176.503" r="3"/>
         <filter id="d" width="725%" height="725%" x="-312.5%" y="-312.5%" filterUnits="objectBoundingBox">
@@ -17,7 +20,8 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <circle id="g" cx="3.271" cy="63.634" r="3"/>
         <filter id="f" width="725%" height="725%" x="-312.5%" y="-312.5%" filterUnits="objectBoundingBox">
@@ -25,7 +29,8 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <circle id="i" cx="60" cy="297" r="3"/>
         <filter id="h" width="725%" height="725%" x="-312.5%" y="-312.5%" filterUnits="objectBoundingBox">
@@ -33,7 +38,8 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <path id="k" d="M813 675a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
         <filter id="j" width="725%" height="725%" x="-312.5%" y="-312.5%" filterUnits="objectBoundingBox">
@@ -41,7 +47,8 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <path id="m" d="M949 542a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
         <filter id="l" width="725%" height="725%" x="-312.5%" y="-312.5%" filterUnits="objectBoundingBox">
@@ -49,122 +56,115 @@
             <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.101960784 0 0 0 0 0.509803922 0 0 0 0 1 0 0 0 0.5 0"/>
         </filter>
         <circle id="o" cx="1006" cy="848" r="3"/>
         <filter id="n" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
         </filter>
         <circle id="q" cx="993" cy="693" r="3"/>
         <filter id="p" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
         </filter>
         <circle id="s" cx="155" cy="174" r="3"/>
         <filter id="r" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
         </filter>
         <circle id="u" cx="790.511" cy="479.639" r="3"/>
         <filter id="t" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.37 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.37 0"/>
         </filter>
         <circle id="w" cx="820" cy="856" r="3"/>
         <filter id="v" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
         </filter>
         <circle id="y" cx="1176.729" cy="626.366" r="3"/>
         <filter id="x" width="700%" height="700%" x="-300%" y="-300%" filterUnits="objectBoundingBox">
             <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
             <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
+            <feColorMatrix in="shadowBlurOuter1"
+                           values="0 0 0 0 0.133333333 0 0 0 0 0.803921569 0 0 0 0 0.776470588 0 0 0 0.4 0"/>
         </filter>
     </defs>
     <g fill="none" fill-rule="evenodd" transform="rotate(144 630.695 329.433)">
         <g>
-            <animate attributeName="opacity" dur="2.5s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="2.2"></animate>
+            <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>
             <use fill="#000" filter="url(#a)" xlink:href="#b"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#b"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="1.7s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="1.4"></animate>
+            <animate attributeName="opacity" dur="0.7s" values="0;1;0" repeatCount="indefinite" begin="0.3"></animate>
             <use fill="#000" filter="url(#d)" xlink:href="#e"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#e"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="2.7s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="2.4"></animate>
+            <animate attributeName="opacity" dur="0.8s" values="0;1;0" repeatCount="indefinite" begin="0.5"></animate>
             <use fill="#000" filter="url(#f)" xlink:href="#g"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#g"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="2.3s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="2"></animate>
+            <animate attributeName="opacity" dur="0.9s" values="0;1;0" repeatCount="indefinite" begin="0.6"></animate>
             <use fill="#000" filter="url(#h)" xlink:href="#i"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#i"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="1.9s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="1.6"></animate>
+            <animate attributeName="opacity" dur="1.1s" values="0;1;0" repeatCount="indefinite" begin="0.4"></animate>
             <circle cx="323" cy="31" r="3" fill="#1A82FF" stroke="url(#c)" stroke-width="1.5"/>
-        </g>
-
-        <g>
             <path fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" d="M813 675a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-            <animate attributeName="opacity" dur="1.3s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="1"></animate>
+        </g>
+        <g>
+            <animate attributeName="opacity" dur="0.6s" values="0;1;0" repeatCount="indefinite" begin="0.2"></animate>
             <use fill="#000" filter="url(#j)" xlink:href="#k"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#k"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="1.1s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="0.8"></animate>
+            <animate attributeName="opacity" dur="1.1s" values="0;1;0" repeatCount="indefinite" begin="1"></animate>
             <use fill="#000" filter="url(#l)" xlink:href="#m"/>
             <use fill="#1A82FF" stroke="url(#c)" stroke-width="1.5" xlink:href="#m"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="0.5s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="0.2"></animate>
+            <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>
             <use fill="#000" filter="url(#n)" xlink:href="#o"/>
             <use fill="#22CDC6" xlink:href="#o"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="0.7s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="0.4"></animate>
+            <animate attributeName="opacity" dur="0.9s" values="0;1;0" repeatCount="indefinite" begin="0.4"></animate>
             <use fill="#000" filter="url(#p)" xlink:href="#q"/>
             <use fill="#22CDC6" xlink:href="#q"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="2.1s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="1.8"></animate>
+            <animate attributeName="opacity" dur="0.8s" values="0;1;0" repeatCount="indefinite" begin="0.7"></animate>
             <use fill="#000" filter="url(#r)" xlink:href="#s"/>
             <use fill="#22CDC6" xlink:href="#s"/>
         </g>
         <g>
-
-            <animate attributeName="opacity" dur="1.5s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="1.2"></animate>
+            <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.9"></animate>
             <use fill="#000" filter="url(#t)" xlink:href="#u"/>
             <use fill="#22CDC6" xlink:href="#u"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="0.9s" values="0" begin="0"></animate>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="0.6"></animate>
+            <animate attributeName="opacity" dur="0.9s" values="0;1;0" repeatCount="indefinite" begin="0.2"></animate>
             <use fill="#000" filter="url(#v)" xlink:href="#w"/>
             <use fill="#22CDC6" xlink:href="#w"/>
         </g>
         <g>
-            <animate attributeName="opacity" dur="0.3s" values="0;1" begin="0"></animate>
+            <animate attributeName="opacity" dur="0.8s" values="0;1;0" repeatCount="indefinite" begin="0.3"></animate>
             <use fill="#000" filter="url(#x)" xlink:href="#y"/>
             <use fill="#22CDC6" xlink:href="#y"/>
         </g>

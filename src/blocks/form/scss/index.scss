@@ -3,7 +3,7 @@
     flex-flow: row;
     @media(max-width: 767px) {
         flex-flow: column;
-        width:70%;
+        width: 70%;
     }
     &__container {
         position: relative;
@@ -18,9 +18,9 @@
         background: transparent;
         border: none;
         border-bottom: 1px solid #333b4c;
-        transition:0.3s;
+        transition: 0.3s;
         &:focus {
-            transition:0.3s;
+            transition: 0.3s;
             color: #fff;
             border-bottom: 1px solid #fff;
         }
@@ -44,7 +44,7 @@
             }
         }
         @media(max-width: 767px) {
-            width:100%;
+            width: 100%;
         }
     }
     &__showPass {
@@ -57,7 +57,7 @@
         right: 30px;
         top: 20px;
         &_hide {
-            top:18px;
+            top: 18px;
             background: url('../images/form__showpass_hide.svg') no-repeat;
         }
     }
@@ -74,7 +74,7 @@
         &:hover {
             background-image: linear-gradient(#cc124d, #cc124d), linear-gradient(to bottom, #ff165e, #e81254);
         }
-        @media(max-width:767px){
+        @media(max-width: 767px) {
             width: 100%;
             margin-top: 20px;
         }

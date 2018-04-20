@@ -16,7 +16,9 @@
     "popper.js": "^1.12.9",
     "lightbox2": "^2.10.0",
     "timezz": "TimezZ#^3.0.0",
-    "ion.rangeSlider": "ionrangeslider#^2.2.0"
+    "ion.rangeSlider": "ionrangeslider#^2.2.0",
+    "animate.css": "^3.5.2",
+    "wow": "wow.js#^1.1.2"
   },
   "authors": [
     "Uznichenko Vladimir Olegovich <darknerty@gmail.com>"

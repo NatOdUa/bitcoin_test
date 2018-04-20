@@ -1,30 +1,30 @@
-.newsItem{
+.newsItem {
     width: 260px;
     height: 297px;
     border-radius: 6px;
     border: solid 1px transparent;
     background-image: linear-gradient(#1d2536, #1d2536), linear-gradient(to bottom, rgba(172, 197, 255, 0.1), rgba(29, 34, 45, 0));
-    padding-left:30px;
-    padding-top:30px;
-    padding-right:32px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 32px;
     position: relative;
-    &__logo{
-        & img{
+    &__logo {
+        & img {
             width: 95.4% !important;
         }
     }
-    &__text{
+    &__text {
         font-size: 15px;
         line-height: 25px;
         text-align: left;
         color: #ffffff;
         position: absolute;
-        top:99px;
-        padding-right:33px;
+        top: 99px;
+        padding-right: 33px;
     }
-    &__date{
+    &__date {
         position: absolute;
-        bottom:16px;
+        bottom: 16px;
         font-size: 12px;
         text-align: left;
         color: #777c86;

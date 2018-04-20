@@ -1,24 +1,27 @@
 .logo {
-    flex:1;
-    text-align:center;
+    flex: 1;
+    text-align: center;
+    @media(max-width: 1000px) {
+        align-self: flex-start;
+    }
     &__link {
     }
     &__img {
-        transition:0.3s;
+        transition: 0.3s;
         transform: rotate(0deg);
-        width:60px;
-        height:41px;
-        @media(max-width:1000px){
-            width:48px;
-            height:33px;
+        width: 60px;
+        height: 41px;
+        @media(max-width: 1000px) {
+            width: 48px;
+            height: 33px;
         }
-        .page__header_sticky &{
-            transition:0.3s;
-            width:48px;
-            height:33px;
+        .page__header_sticky & {
+            transition: 0.3s;
+            width: 48px;
+            height: 33px;
         }
-        &:hover{
-            transition:0.3s;
+        &:hover {
+            transition: 0.3s;
             transform: rotate(-360deg);
         }
     }

@@ -43,7 +43,8 @@ var config = {
             'vendor/owl.carousel/dist/owl.carousel.js',
             'vendor/lightbox2/dist/js/lightbox.js',
             'vendor/timezz/dist/TimezZ-es6.js',
-            'vendor/ion.rangeSlider/js/ion.rangeSlider.js',
+            'vendor/ion.rangeSlider/js/ion.rangeSlider.js',            
+            'vendor/wow/dist/wow.js',
             // Libs
             'src/libs/jquery_mousewheel/jquery.mousewheel.js',
             // Other
@@ -54,7 +55,6 @@ var config = {
             'src/js/partials/common.js',
             'src/js/*.js',
             'src/blocks/**/js/*.js'
-
         ],
         scss: [
             'src/scss/fonts.scss',
@@ -69,6 +69,8 @@ var config = {
             'vendor/EasyAutocomplete/dist/easy-autocomplete.css',
             'vendor/Ion.RangeSlider/css/Ion.RangeSlider.css',
             'vendor/Ion.RangeSlider/css/Ion.RangeSlider.skinHTML5.css',
+            'vendor/animate.css/animate.css',
+            'vendor/animate.css/source/fading_entrances/fadeInUp.css',
             'src/libs/easy_autocomplete/easyAutocomplete.css',
             'vendor/owl.carousel/dist/assets/owl.carousel.css',
             'vendor/owl.carousel/dist/assets/owl.theme.default.css',
