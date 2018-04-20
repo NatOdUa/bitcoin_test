@@ -300,7 +300,7 @@ gulp.task('default', function () {
         tunnel: false,
         host: 'localhost',
         port: 9000,
-        logPrefix: 'lukino_theme-responsive'
+        logPrefix: 'bitcoin_test'
     });
 
     watch(
