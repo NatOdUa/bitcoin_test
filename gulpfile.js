@@ -41,7 +41,6 @@ var config = {
             'vendor/js-cookie/src/js.cookie.js',
             'vendor/EasyAutocomplete/dist/jquery.easy-autocomplete.js',
             'vendor/owl.carousel/dist/owl.carousel.js',
-            'vendor/lightbox2/dist/js/lightbox.js',
             'vendor/timezz/dist/TimezZ-es6.js',
             'vendor/ion.rangeSlider/js/ion.rangeSlider.js',            
             'vendor/wow/dist/wow.js',
@@ -58,7 +57,6 @@ var config = {
         ],
         scss: [
             'src/scss/fonts.scss',
-            'vendor/lightbox2/dist/css/lightbox.min.css',
      		'vendor/bootstrap/dist/css/bootstrap.min.css',
             'vendor/bootstrap/dist/css/bootstrap-reboot.min.css',
             'vendor/normalize-scss/normalize.css',
